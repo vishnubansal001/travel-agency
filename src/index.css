@@ -24,6 +24,9 @@
     visibility: visible;
     transform: skewY(0deg) translateY(10px);
   }
+  .scroll-hidden::-webkit-scrollbar{
+    display: none !important;
+  }
   .noshowpopup {
     opacity: 0;
     visibility: hidden;
