@@ -1,6 +1,6 @@
 import React from 'react'
-import { Footer, Hero, Memory, Navbar } from './components'
-import { hero, memory, navlinks } from './data/travigodata'
+import { Explore, Footer, Hero, Memory, Navbar } from './components'
+import { hero, memory, navlinks, placesAPI } from './data/travigodata'
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Navbar navlinks={navlinks}/>
       <Hero hero={hero}/>
       <Memory memory={memory}/>
+      <Explore title="Explore The Beauty of World" placesAPI={placesAPI}/>
       <Footer/>
     </div>
   )
