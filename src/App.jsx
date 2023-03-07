@@ -1,12 +1,12 @@
 import React from 'react'
-import { Footer, Main, Navbar } from './components'
-import { hero } from './data/data'
+import { Footer, Hero, Navbar } from './components'
+import { hero } from './data/travigodata'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Main hero={hero}/>
+      <Hero hero={hero}/>
       <Footer/>
     </div>
   )

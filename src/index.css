@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  *{
+@layer base {
+  * {
     margin: 0;
     padding: 0;
+  }
+  .travigo-container {
+    @apply w-[85vw] xl:w-[95vw] m-auto;
+  }
+  .button-emrald {
+    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-md hover:shadow-lg hover:shadow-emerald-400 shadow-emerald-400 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white sm:w-48;
+  }
+  .button-light {
+    @apply bg-gradient-to-b from-white to-slate-100 shadow-md hover:shadow-lg hover:shadow-emerald-100 shadow-emerald-100 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-black sm:w-48;
+  }
+  .drop-shadow-emrald{
+    filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
   }
 }
