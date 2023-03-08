@@ -6,3 +6,4 @@ export {default as Explore} from './Explore.jsx';
 export {default as Advertise} from './Advertise.jsx';
 export {default as Pricings} from './Pricings.jsx';
 export {default as Banner} from './Banner.jsx';
+export {default as NewsLetter} from './NewsLetter.jsx';

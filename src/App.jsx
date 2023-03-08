@@ -1,5 +1,5 @@
 import React from 'react'
-import { Advertise, Banner, Explore, Footer, Hero, Memory, Navbar, Pricings } from './components'
+import { Advertise, Banner, Explore, Footer, Hero, Memory, Navbar, NewsLetter, Pricings } from './components'
 import { bannerAPI, brands, footerAPI, hero, memory, navlinks, placesAPI, pricingapi } from './data/travigodata'
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
       <Advertise brands={brands}/>
       <Pricings pricingapi={pricingapi} />
       <Banner bannerAPI={bannerAPI}/>
+      <NewsLetter/>
       <Footer footerAPI={footerAPI}/>
     </div>
   )
