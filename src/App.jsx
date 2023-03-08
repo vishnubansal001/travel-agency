@@ -1,6 +1,6 @@
 import React from 'react'
 import { Advertise, Banner, Explore, Footer, Hero, Memory, Navbar, Pricings } from './components'
-import { bannerAPI, brands, hero, memory, navlinks, placesAPI, pricingapi } from './data/travigodata'
+import { bannerAPI, brands, footerAPI, hero, memory, navlinks, placesAPI, pricingapi } from './data/travigodata'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Advertise brands={brands}/>
       <Pricings pricingapi={pricingapi} />
       <Banner bannerAPI={bannerAPI}/>
-      <Footer/>
+      <Footer footerAPI={footerAPI}/>
     </div>
   )
 }
