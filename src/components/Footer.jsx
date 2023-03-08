@@ -19,7 +19,7 @@ const Footer = ({ footerAPI: { titles, links, sociallinks } }) => {
             >
               {list?.map((val, i) => (
                 <li key={i} className="font-mono text-sm sm:text-xs">
-                  {val.links}
+                  {val.link}
                 </li>
               ))}
             </ul>
